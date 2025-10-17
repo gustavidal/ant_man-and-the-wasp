@@ -1,0 +1,23 @@
+:root{
+--main-color: #000000;
+}
+
+body{
+height: 100vh;
+background-color: var(--main-color);
+display: flex;
+flex-direction: column;
+}
+
+header {
+background-color: purple;
+}
+
+main{
+background-color: pink;
+flex-grow: 1;
+}
+
+footer{
+background-color: blue;
+}
