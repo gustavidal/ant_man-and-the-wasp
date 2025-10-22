@@ -89,10 +89,41 @@ hr{
 
 /*ESTILIZAÇÃO DO MAIN*/
 main{
-    background-color: aqua;
     flex-grow: 1;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.informations{
+    height: 230px;
+    width: 380px;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    font-size: 60px;
+}
+
+.caracteristics{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+}
+
+.line1, .line2, .line3{
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+}
+
+.date, .D3, .language, .time{
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 /*ESTILIZAÇÃO DO FOOTER*/
