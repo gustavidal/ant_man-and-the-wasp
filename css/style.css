@@ -1,23 +1,95 @@
 :root{
---main-color: #000000;
+    --primary-color: #000000;
+    --secundary-color: #ffffff;
+    --tertiary-color: #9000FF;
 }
 
 body{
-height: 100vh;
-background-color: var(--main-color);
-display: flex;
-flex-direction: column;
+    height: 100vh;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    font-family: Inter, sans-serif;
+    color: var(--secundary-color);
 }
 
-header {
-background-color: purple;
+/*ESTILIZAÇÃO DO HEADER*/
+header{
+    display: flex;
+    flex-direction: column;
 }
 
+.svg{
+    width: 25px;
+    height: 25px;
+}
+
+.header-up{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.header-up .logos{
+    align-items: center;
+    display: flex;
+    gap: 12px;
+}
+
+.header-up .local{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+hr{
+    color: var(--secundary-color);
+}
+
+.header-down{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    align-items: center;
+}
+
+.header-down .func{
+    text-decoration: underline;
+    text-decoration-color: var(--tertiary-color);
+}
+
+.header-down .functions{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.header-down .functions .magglass{
+    gap: 10px;
+}
+
+.header-down .functions .button{
+    height: 40px;
+    width: 160px;
+    background-color: var(--tertiary-color);
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+/*ESTILIZAÇÃO DO MAIN*/
 main{
-background-color: pink;
-flex-grow: 1;
+    background-color: aqua;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
 }
 
+/*ESTILIZAÇÃO DO FOOTER*/
 footer{
-background-color: blue;
+    background-color: aquamarine;
 }
