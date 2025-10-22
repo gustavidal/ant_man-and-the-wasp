@@ -66,6 +66,12 @@ hr{
     align-items: center;
 }
 
+.header-down .functions .texts{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
 .header-down .functions .magglass{
     gap: 10px;
 }
