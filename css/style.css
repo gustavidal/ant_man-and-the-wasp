@@ -102,6 +102,8 @@ main{
     width: 380px;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    transform: translate(0%, -90%);
 }
 
 .title{
@@ -142,11 +144,20 @@ main{
 
 .poster{
     position: absolute;
-    transform: translate(-100%, -45%);
+    transform: translate(-100%, -47%);
     height: 80%;
 }
 
 /*ESTILIZAÇÃO DO FOOTER*/
 footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: aquamarine;
+}
+
+.carousel{
+    display: flex;
+    position: absolute;
+    transform: translate(-325%, -30%);
 }
