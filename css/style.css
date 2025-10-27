@@ -159,5 +159,5 @@ footer{
 .carousel{
     display: flex;
     position: absolute;
-    transform: translate(-325%, -30%);
+    transform: translate(-200%, -30%);
 }
