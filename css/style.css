@@ -32,16 +32,10 @@ header{
     align-items: center;
 }
 
-.header-up .logos{
+.logos, .local{
     align-items: center;
     display: flex;
     gap: 12px;
-}
-
-.header-up .local{
-    display: flex;
-    gap: 12px;
-    align-items: center;
 }
 
 hr{
@@ -55,24 +49,18 @@ hr{
     align-items: center;
 }
 
-.header-down .func{
+.func{
     text-decoration: underline;
     text-decoration-color: var(--tertiary-color);
 }
 
-.header-down .functions{
+.functions, .texts{
     display: flex;
     gap: 10px;
     align-items: center;
 }
 
-.header-down .functions .texts{
-    display: flex;
-    gap: 10px;
-    align-items: center;
-}
-
-.header-down .functions .magglass{
+.magglass{
     gap: 10px;
 }
 
@@ -103,7 +91,7 @@ main{
     justify-content: center;
     align-items: center;
     position: absolute;
-    transform: translate(0%, -90%);
+    transform: translate(15%, -90%);
 }
 
 .title{
@@ -153,11 +141,60 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: aquamarine;
 }
 
 .carousel{
     display: flex;
     position: absolute;
-    transform: translate(-200%, -30%);
+    transform: translate(-440%, -300%);
+}
+
+/*TABLET*/
+@media (max-width: 1024px){
+    body{
+        padding: 20px;
+    }
+
+    .svg{
+        height: 15px;
+        width: 15px;
+    }
+
+    .header-up, .texts, .vl, .functions .button{
+        display: none;
+    }
+
+    .informations{
+        width: 350px;
+        position: absolute;
+        top: 350px;
+    }
+
+    .title{
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .characteristics{
+        font-size: 15px;
+    }
+
+    .line4{
+        position: absolute;
+        bottom: -450px;
+    }
+
+    .button .svg, .carousel .svg{
+        height: 20px;
+        width: 20px;
+    }
+
+    .poster{
+        height: 445px;
+        border-radius: 150px;
+    }
+
+    .carousel{
+        transform: translate(0%, -530%);
+    }
 }
