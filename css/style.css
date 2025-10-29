@@ -81,7 +81,6 @@ main{
     flex-grow: 1;
     display: flex;
     align-items: center;
-    justify-content: center;
     font-size: 18px;
     justify-content: space-between;
 }
@@ -223,7 +222,7 @@ footer{
     }
 
     .line4{
-        transform: translate(-5%, -650%);
+        transform: translate(-5%, 200%);
     }
     
     .characteristics{
