@@ -161,19 +161,14 @@ footer{
         width: 15px;
     }
 
-    .header-up, .texts, .vl, .functions .button{
+    .header-up, .texts, .vl, .functions .button, .title{
         display: none;
     }
 
     .informations{
         width: 350px;
         position: absolute;
-        transform: translate(0%, -180%);
-    }
-
-    .title{
-        font-size: 45px;
-        text-align: center;
+        transform: translate(50%, 75%);
     }
 
     .characteristics{
@@ -182,7 +177,13 @@ footer{
 
     .line4{
         position: absolute;
-        bottom: -450px;
+        transform: translate(10%, 200%);
+    }
+
+    .poster{
+        height: 600px;
+        border-radius: 150px;
+        transform: translate(-120%, -75%);
     }
 
     .button .svg, .carousel .svg{
@@ -190,13 +191,8 @@ footer{
         width: 20px;
     }
 
-    .poster{
-        height: 445px;
-        border-radius: 150px;
-    }
-
     .carousel{
-        transform: translate(0%, -530%);
+        transform: translate(0%, -200%);
     }
 }
 

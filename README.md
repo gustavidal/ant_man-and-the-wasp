@@ -17,4 +17,4 @@ A parte de formatar o *layout* para o *tablet (iPad Mini)* e para o *mobile (iPh
 
 Por fim, escrever este texto em um *[README.md](https://www.makeareadme.com/)* está sendo muito divertido, por mostrar funcionalidades de texto diferentes das convencionais.
 
-Agradeço ao professor **Fernando Leonid** e à instituição do **SENAI Jandira**.
+Agradeço ao professor **Fernando Leonid** e à instituição do **SENAI Jandira**!
