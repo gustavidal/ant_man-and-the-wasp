@@ -145,8 +145,6 @@ footer{
 
 .carousel{
     display: flex;
-    position: absolute;
-    transform: translate(-355%, -300%);
 }
 
 /*TABLET (iPad Mini)*/
@@ -188,10 +186,6 @@ footer{
     .button .svg, .carousel .svg{
         height: 20px;
         width: 20px;
-    }
-
-    .carousel{
-        transform: translate(0%, -200%);
     }
 }
 
