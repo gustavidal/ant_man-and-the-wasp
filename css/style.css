@@ -153,6 +153,12 @@ footer{
         padding: 20px;
     }
 
+    main{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
     .svg{
         height: 15px;
         width: 15px;
@@ -164,23 +170,19 @@ footer{
 
     .informations{
         width: 350px;
-        position: absolute;
-        transform: translate(50%, 75%);
+        position: static;
+        transform: translate(0, 0);
     }
 
     .characteristics{
         font-size: 15px;
     }
 
-    .line4{
-        position: absolute;
-        transform: translate(10%, 200%);
-    }
-
     .poster{
         height: 600px;
         border-radius: 150px;
-        transform: translate(-120%, -75%);
+        position: static;
+        transform: translate(0, 0);
     }
 
     .button .svg, .carousel .svg{
@@ -204,29 +206,22 @@ footer{
     }
 
     main{
+        flex-direction: column-reverse;
         align-items: center;
-        justify-content: left;
-        flex-direction: column;
+        justify-content: center;
     }
 
     .informations{
         height: 100px;
         width: 290px;
-        transform: translate(-50%, 360%);
-    }
-
-    .line4{
-        transform: translate(-5%, 200%);
     }
     
     .characteristics{
-        transform: translate(-2%, 0%);
         font-size: 10px;
     }
 
     .poster{
         height: 330px;
-        transform: translate(-50%, 0%);
         border-radius: 10%;
     }
 }
