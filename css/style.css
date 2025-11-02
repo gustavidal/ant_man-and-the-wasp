@@ -145,6 +145,7 @@ footer{
 
 .carousel{
     display: flex;
+    z-index: 1;
 }
 
 /*TABLET (iPad Mini)*/
