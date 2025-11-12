@@ -15,6 +15,15 @@ body{
     color: var(--secundary-color);
 }
 
+.stripe{
+    height: 18vh;
+    width: 90.6vw;
+    background-color: var(--primary-color);
+    position: absolute;
+    transform: translate(0%, -18%);
+    z-index: -998;
+}
+
 /*ESTILIZAÇÃO DO HEADER*/
 header{
     display: flex;
@@ -139,8 +148,9 @@ main{
 
 .poster{
     position: absolute;
-    transform: translate(160%, -50%);
-    height: 78%;
+    transform: translate(140%, -57.3%);
+    height: 88%;
+    z-index: -999;
 }
 
 /*ESTILIZAÇÃO DO FOOTER*/
@@ -172,17 +182,18 @@ footer{
         width: 15px;
     }
 
-    .header-up, .texts, .vl, .functions .button, .title{
+    .stripe, .header-up, .texts, .vl, .functions .button, .title{
         display: none;
     }
 
     .informations{
         width: 350px;
+        height: 150px;
         position: static;
         transform: translate(0, 0);
     }
 
-    .characteristics{
+    .line1, .line2, .line3{
         font-size: 15px;
     }
 
@@ -193,9 +204,13 @@ footer{
         transform: translate(0, 0);
     }
 
-    .button .svg, .carousel .svg{
+    .magglass .svg, .button .svg, .carousel .svg{
         height: 20px;
         width: 20px;
+    }
+
+    .carousel{
+        padding-bottom: 20px;
     }
 }
 
@@ -207,6 +222,11 @@ footer{
 
     .cineplex{
         height: 70px;
+        padding-left: 12px;
+    }
+
+    .magglass{
+        padding-right: 22px;
     }
 
     hr, .title, footer{
@@ -224,8 +244,8 @@ footer{
         width: 290px;
     }
     
-    .characteristics{
-        font-size: 10px;
+    .line1, .line2, .line3, .line4{
+        font-size: 12px;
     }
 
     .poster{
